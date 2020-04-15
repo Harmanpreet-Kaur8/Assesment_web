@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB222 Store</title>
+    <!--css code in css file-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+            href="https://fonts.googleapis.com/css?family=Merienda&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Caveat&display=swap"
+            rel="stylesheet"
+        />
+  </head>
+  <body>
+    <div class="background" class = "repeat">
+    <header>
+        <ul id="Main_Page">
+          <li class="StoreName">
+            <img src="images/Zara_logo.jpg" width="150" height="80" alt="logo" />
+            <p>Zara (Finding fashion in You)</p>
+          </li>
+        </ul>
+        <!--a link to your contact.html page.-->
+        <ul id="Contact_Page">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="reflect.html">Reflect Page</a></li>
+        </ul>
+    </header>
+    <section>
+          <div rowspan="6" >
+    
+                <img src="images/Header.jpg" width="400" height="300" alt="header" />
+            
+          </div>
+          
+            <a href="index.html">All Categories</a><br>
+                <div id="Men"><a href="#"> Men</a></div>
+                <div id="Women"><a href="#">Women</a></div>
+                <div id="Children"><a href="#">Children</a></div>
+                <div id="aboutUs"><a href="#"> About Us</a></div>
+                <!-- Use https://formspree.io/ to automatically submit the form to
+      your email address-->
+                <form id="form1" name="form1" method="POST" action="https://httpbin.org/post">
+                  <label for="email" class="subscribe"> Subscribe </label
+                  ><input
+                    type="email"
+                    required
+                    id="email"
+                    name="email"
+                    pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                  />
+                  <input type="submit" value="OK" />
+                </form>
+    
+     
+            <div class="main-div">
+          
+
+          <div class="box-area" id="div-items">
+           <span class="header-text"><strong>Men Category</strong></span>
+            <table class="single-box" id="Men">
+              <table>
+               <tr> <td rowspan="3"><img src="images/Men_Jeans.jpg" width="190" height="220" alt="NotFound" /></td>
+              <th>Product Name</th>
+                <td>Men's Jeans</td>
+              </tr>  
+              <tr>
+                <th>Price</th>
+             
+                <td>CAD 95.85</td>
+              </tr>
+              <tr>
+                <th>Description</th>
+                <td>Comfortable casual Jeans</td>
+              </tr>
+            </table>
+            <table>
+              <tr> <td rowspan="3"><img src="images/Men_Blazer.jpg" width="190" height="220" alt="NotFound" /></td>
+                <th>Product Name</td>
+                <td>Men's Blazer</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 100.05</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Office Look Blazer</td>
+                </tr>
+            </table>
+            <table>
+              <tr> <td rowspan="3"><img src="images/Men_Jackets.jpg" width="190" height="220" alt="NotFound" /></td>
+                <th>Product Name</th>
+                <td>Men's Jeans</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 110.55</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Warm Jackets to protect you from cold</td>
+                </tr>
+            </table>
+          </table>
+          <span class="header-text"><strong>Women Category</strong></span>
+        <table class="single-box" id="Women">
+            <table>
+              <tr> <td rowspan="3"><img src="images/Wome_jeans.jpg" width="190" height="220" alt="NotFound" /></td>
+                <th>Product Name</th>
+                <td>Women's Jeans</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 90.45</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Warm Designer Jackets to protect you from cold</td>
+                </tr>
+            </table>
+            <table>
+              <tr> <td rowspan="3"><img src="images/Women_Blazer.jpg" width="190" height="220" alt="NotFound" /></td>
+                <th>Product Name</th>
+                <td>Women's Blazer</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 98.86</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Trending Blazer are in stock to make you fashionable</td>
+                </tr>
+            </table>
+            <table>
+              <tr> <td rowspan="3"><img src="images/Women_Dress.jpg" width="190" height="220" alt="NotFound" /></td>
+                <th>Product Name</th>
+                <td>Women's Dress</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 120.90</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Trending Blazer are in stock to make you fashionable</td>
+                </tr>
+            </table>
+            <table>
+              <tr> <td rowspan="3"><img src="images/Women_Jackets.jpg" width="190" height="220" alt="NotFound" /></td>
+                <th>Product Name</th>
+                <td>Women's Jackets</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 105.95</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Trending Jackets are the most demanding</td>
+                </tr>
+            </table>
+          </table>
+         <span class="header-text"><strong>Kids Category</strong></span>
+            <table class="single-box" id="Children">
+              <table>
+                <tr> <td rowspan="3"><img src="images/Blazer_boys.jpg" width="190" height="220" alt="NotFound" /></td>
+                  <th>Product Name</th>
+                  <td>Boys's Blazer</td>
+                  </tr> 
+                  <tr>
+                    <th>Price</th>
+                    <td>CAD 85.95</td>
+                  </tr>
+                  <tr>
+                    <th>Description</th>
+                    <td>Comfortable Blazer for your child</td>
+                  </tr>
+              </table>
+              <table>
+                <tr> <td rowspan="3"><img src="images/Blazer_girls.jpg" width="190" height="220" alt="NotFound" /></td>
+                  <th>Product Name</th>
+                  <td>Girls's Blazer</td>
+                  </tr> 
+                  <tr>
+                    <th>Price</th>
+                    <td>CAD 90.90</td>
+                  </tr>
+                  <tr>
+                    <th>Description</th>
+                    <td>Stylish and cozy Blazer for girls</td>
+                  </tr>
+              </table>
+              <table>
+                <tr> <td rowspan="3"><img src="images/Jackets_girls.jpg"  width="190"  height="220" alt="NotFound"/></td>
+                  <th>Product Name</th>
+                <td>Girls's Jackets</td>
+                </tr> 
+                <tr>
+                  <th>Price</th>
+                  <td>CAD 85.35</td>
+                </tr>
+                <tr>
+                  <th>Description</th>
+                  <td>Jackets in Black are in stock suitable for every occasion</td>
+                  </tr>
+              </table>
+              <table>
+                <tr> <td rowspan="3"><img src="images/Jeans_boys.jpg" width="190" height="220" alt="NotFound" /></td>
+                  <th>Product Name</th>
+                  <td>Boys's Jeans</td>
+                  </tr> 
+                  <tr>
+                    <th>Price</th>
+                    <td>CAD 80.20</td>
+                  </tr>
+                  <tr>
+                    <th>Description</th>
+                    <td>Old style Jeans </td>
+                  </tr>
+              </table>
+              <table>
+                <tr> <td rowspan="3"><img src="images/jeans_girls.jpg" width="190" height="220" alt="NotFound" /></td>
+                  <th>Product Name</th>
+                  <td>Women's Jackets</td>
+                  </tr> 
+                  <tr>
+                    <th>Price</th>
+                    <td>CAD 105.95</td>
+                  </tr>
+                  <tr>
+                    <th>Description</th>
+                    <td>Trending Jackets are the most demanding</td>
+                  </tr>
+              </table>      
+          </table>
+          </div>
+        </div>
+
+      <div class="box-area hidden" id="dynamicDiv"></div>
+    </section>
+    <footer>
+      &COPY;2020 by Kirti Markan
+    </footer>
+    <script src="js/script.js"></script>
+  </div>
+  </body>
+</html>

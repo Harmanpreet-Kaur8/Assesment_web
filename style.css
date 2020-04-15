@@ -1,0 +1,31 @@
+    .background{
+      background-image:url(images/try.jpg);
+     /* background-size: 100% 100%;*/
+    }
+    .repeat {
+           /* background-size: 100% 100%;*/
+background-repeat: inherit;
+    }
+    .header-text {
+      font-size : 25pt;
+    }
+    th{
+      font-size : 15pt;
+      height: 50px;
+    }
+    .bold{
+      font-weight:bold;
+    }
+  
+    #table2 td {
+      border: 6px inset black;
+      padding:10px 20px;
+      background-color: green;
+      height: 50px;
+      width: 400px;		 
+       }
+     .reflect{
+        color: brown;
+        font-family: 'Lucida Sans';
+        font-weight: bold;}
+ /** Add any CSS you need to this file. */
